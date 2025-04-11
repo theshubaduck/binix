@@ -1,22 +1,20 @@
-IMPORTANT INFORMATION FOR USERS:
 
-Before you get started with Binix, you need to get yourself familiar with the command line. Here are some of the commands which will be useful if you are planning to create your own distro with this:
+Here's a revised version of the information paragraph, tailored to match the functionality and structure of your Binix Framework code:
 
-help. This displays all the available commands in the command line.
-exit. Exits the Binix framework.
-addservice <service_name>. This is where you add services to your distro, so on and so forth.
-listservices. Lists every single service.
-loadmodule <module_name>. It loads whatever module into the framework.
-createfile <filename>. It creates a new file with whatever name you want.
-deletefile <filename>. It deletes any file that you make.
-listfiles. It lists all the files in the current directory.
-runprocess <process_name>. It will run whatever process you want.
-IMPORTANT INFORMATION FOR MAINTAINERS, DEVELOPERS, AND CONTRIBUTORS:
+Important Information for Users:
 
-Please familiarize yourself with the license before you do anything. Plus, all contributions will go through GitHub instead of Git, so it is even more efficient compared to Linux. Also, please, for even more efficiency when you are directly changing the files, compress them back into ONE zip.
+To get started with Binix, familiarize yourself with the command line interface. Here are some essential commands:
 
-So, for having so many guidelines, however, it is better in this organized way. :) Efficiency is our ethos, and that goes the same for users. By doing this, you will help people download the Binix framework.
+help: Displays all available commands.
 
-So, thank you personally :D.
+exit: Exits the Binix Framework.
 
-Well, that's it from me. Happy coding!
+file [create/delete/edit/list] <filename>: Manages files (create, delete, edit, or list files).
+
+process run <process_name>: Simulates running a process.
+
+addmodule <module_name>: Loads a custom module into the framework.
+
+Important Information for Maintainers, Developers, and Contributors:
+
+Before contributing, please review the license agreement. Contributions will be managed through GitHub for efficiency. When modifying files, ensure they are compressed back into a single zip file for streamlined distribution. Efficiency is our core ethos, and your cooperation helps make the Binix Framework accessible to users. Thank you for your contributions! Happy coding!
